@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/img"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nt1"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="608dp"
+        android:text="Travel Office"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#CF8F8F"
+        android:textColorHighlight="#0E0000"
+        android:textColorHint="#230202"
+        android:textColorLink="#ED2626"
+        android:textSize="43sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/ABCD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="227dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:minHeight="60dp"
+        android:textColor="#000000"
+        android:textColorHighlight="#2E9501"
+        android:textColorHint="#2E9501" />
+
+    <EditText
+        android:id="@+id/nt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ABCD"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="-115dp"
+        android:ems="10"
+        android:hint="ID.NO."
+        android:inputType="textPersonName"
+        android:minHeight="60dp"
+        android:textColor="#000000"
+        android:textColorHint="#2E9501" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="39dp"
+        android:background="#FFB500"
+        android:backgroundTint="#FFB500"
+        android:text="Next"
+        android:textColor="#090101" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="322dp"
+        android:layout_height="169dp"
+        android:layout_above="@+id/ABCD"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="136dp"
+        android:rotation="-9"
+        android:rotationY="0"
+        app:srcCompat="@drawable/pe" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ABCD"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="42dp"
+        android:text="Please enter the required information :"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#0475C1"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ABCD"
+        android:layout_alignTop="@+id/nt2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="-168dp"
+        android:ems="10"
+        android:hint=" Country"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#2E9501"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</RelativeLayout>
